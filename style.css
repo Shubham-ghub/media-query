@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: maroon;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border:  5px solid black;;
+}
+.sub-container{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+/* for mobile */
+@media (max-width: 480px){
+    .container{
+        border: 5px solid black;
+        background-color: royalblue;
+        
+    }
+    .sub-container{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+            
+    }
+}
+
+/* for tablet */
+@media (min-width: 481px) and (max-width: 768px){
+    .container{
+        border: 5px solid black;
+        background-color: goldenrod
+        
+    }
+    
+    .sub-container{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+            
+    }
+}
